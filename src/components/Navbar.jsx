@@ -18,7 +18,7 @@ export default function Navbar() {
       transition: "all 0.4s ease",
     }}>
       <span style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: "1.6rem", color: "#fff" }}>
-        <span style={{ color: "#fd9644" }}>V</span>arsha Portfolio's
+        <span style={{ color: "#fd9644" }}>V</span>arsha's Portfolio
       </span>
       <div style={{ display: "flex", gap: "2rem", alignItems: "center" }}>
         {["About", "Skills", "Projects", "Contact"].map(n => (
