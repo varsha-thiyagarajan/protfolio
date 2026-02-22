@@ -31,19 +31,19 @@ export default function Navbar() {
             onMouseLeave={e => e.target.style.color = "rgba(255,255,255,0.55)"}
           >{n}</a>
         ))}
-        <a href="#" onClick={e => e.preventDefault()} style={{
-          padding: "0.45rem 1.2rem", borderRadius: "50px",
-          border: "1px solid #fd9644", color: "#fd9644",
-          textDecoration: "none", fontFamily: "'DM Sans', sans-serif",
-          fontSize: "0.78rem", letterSpacing: "0.1em", textTransform: "uppercase",
-          fontWeight: 700, transition: "all 0.25s",
-          display: "flex", alignItems: "center", gap: "0.35rem",
-        }}
-          onMouseEnter={e => { e.currentTarget.style.background = "#fd9644"; e.currentTarget.style.color = "#06060f"; }}
-          onMouseLeave={e => { e.currentTarget.style.background = "transparent"; e.currentTarget.style.color = "#fd9644"; }}
-        >
-          ↓ Resume
-        </a>
+        <button
+  style={{
+    padding: "0.45rem 1.2rem",
+    borderRadius: "50px",
+    border: "1px solid #fd9644",
+    color: "#fd9644",
+    background: "transparent",
+    fontFamily: "'DM Sans', sans-serif",
+    cursor: "pointer"
+  }}
+>
+  Resume
+</button>
       </div>
     </nav>
   );

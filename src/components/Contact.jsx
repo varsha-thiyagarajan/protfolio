@@ -1,6 +1,5 @@
 import useInView from "../hooks/useInView";
 import SectionLabel from "./SectionLabel";
-import { useState, useEffect } from "react";
 export default function Contact() {
   const [ref, inView] = useInView();
   return (

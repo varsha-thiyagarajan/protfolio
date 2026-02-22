@@ -1,4 +1,4 @@
- import { useState, useEffect } from "react";
+ import { useState } from "react";
  export default function SkillIcon({ skill, delay, inView }) {
   const [hov, setHov] = useState(false);
   return (

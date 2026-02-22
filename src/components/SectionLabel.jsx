@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+
 export default function SectionLabel({ label }) {
   return (
     <p style={{

@@ -3,7 +3,7 @@ import { projects } from "../data/projects";
 import SectionLabel from "./SectionLabel";
 import ProjectCard from "./ProjectCard";
 import useInView from "../hooks/useInView";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 export default function Projects() {
   const [ref, inView] = useInView();
   const [filter, setFilter] = useState("All");
