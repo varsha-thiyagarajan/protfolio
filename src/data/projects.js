@@ -1,0 +1,51 @@
+export const projects = [
+  {
+    id: 1, category: "fullstack", categoryLabel: "Full-Stack",
+    title: "MeetSphere", subtitle: "Event Management Platform",
+    desc: "Complete full-stack event management platform with secure authentication, user dashboards, and role-based CRUD operations. REST APIs for event creation, updates, and user management.",
+    stack: ["React", "Node.js", "Express.js", "MongoDB"],
+    github: "https://github.com/varsha-thiyagarajan/MeetSphere", color: "#4ecdc4",
+  },
+  {
+    id: 2, category: "fullstack", categoryLabel: "Full-Stack",
+    title: "HealthHub", subtitle: "Service Booking Platform",
+    desc: "Responsive service booking system with cart functionality, backend APIs for users & orders, EmailJS real-time email notifications, and seamless frontend–backend data flow.",
+    stack: ["React", "Node.js", "Express.js", "MongoDB", "EmailJS"],
+    github: "https://github.com/varsha-thiyagarajan/healthhub", color: "#ff6b6b",
+  },
+  {
+    id: 3, category: "fullstack", categoryLabel: "Full-Stack + ML",
+    title: "Learning Style Classifier", subtitle: "ML Integrated Web App",
+    desc: "Web app classifying learners as Visual, Auditory, or Kinesthetic using ML models via Flask APIs. Clean UI with REST-based frontend–ML backend communication.",
+    stack: ["React", "CSS", "Flask", "Machine Learning"],
+    github: "https://github.com/varsha-thiyagarajan/Learning-style-classifier--machine-learning", color: "#fd9644",
+  },
+  {
+    id: 4, category: "frontend", categoryLabel: "Frontend",
+    title: "NoteLeaf", subtitle: "Notes Management App",
+    desc: "Browser-based notes application with full CRUD using localStorage, optimized DOM updates for better performance, and a responsive, clean UI.",
+    stack: ["HTML", "CSS", "JavaScript", "localStorage"],
+    github: "https://github.com/varsha-thiyagarajan/NOTELEAF", color: "#ffe66d",
+  },
+  {
+    id: 5, category: "ml", categoryLabel: "ML / AI",
+    title: "VAK Learning Classifier", subtitle: "EdTech + ML",
+    desc: "ML system classifying students into VAK learning styles from 1,210+ Kaggle responses. Trained & compared Logistic Regression, Decision Tree, Random Forest, SVM. Deployed with Flask.",
+    stack: ["Python", "Flask", "Scikit-learn", "ML Models"],
+    github: "https://github.com/varsha-thiyagarajan/Learning-style-classifier--machine-learning", color: "#c3a6ff",
+  },
+  {
+    id: 6, category: "ml", categoryLabel: "ML / AI",
+    title: "FlashMind", subtitle: "AI-Powered Tutoring System",
+    desc: "AI assistant converting raw notes into summaries, quizzes & flashcards. OCR + doc parsing pipelines, LLM APIs with source-grounded generation, DDQN reinforcement learning. 95% user engagement, 97% data accuracy.",
+    stack: ["Python", "OCR", "PyPDF2", "LLM APIs", "RL"],
+    github: "https://github.com/varsha-thiyagarajan/CHATBOT-FLASHMIND", color: "#a8edea",
+  },
+  {
+    id: 7, category: "ml", categoryLabel: "ML / AI",
+    title: "Health Prediction AI", subtitle: "Medical Report Generator",
+    desc: "Predictive healthcare assistant for diabetes & heart-risk analysis. ML classification models on medical datasets, NLP-powered simplified medical report generation with personalized insights.",
+    stack: ["Python", "Machine Learning", "NLP"],
+    github: "https://github.com/varsha-thiyagarajan/HealthPredictor", color: "#ff6b6b",
+  },
+];
