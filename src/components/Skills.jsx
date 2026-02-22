@@ -3,7 +3,7 @@ import { skillCategories } from "../data/skills";
 import SkillIcon from "./SkillIcon";
 import SectionLabel from "./SectionLabel";
 import useInView from "../hooks/useInView";
-import { useState,useEffect } from "react";
+import { useState } from "react";
 
 export default function Skills() {
   const [ref, inView] = useInView();
